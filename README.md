@@ -1,14 +1,12 @@
 # ICM20948
 
 ## 1、介绍
-LSM6DSM 是RT-Thread传感器驱动包，适配RT-Thread传感器驱动框架，开发者可以通过RT-Thread传感器驱动框架提供的上层API直接访问LSM6DSM，读取和配置LSM6DSM相关参数。
 
 RT-Thread传感器驱动框架相关文档参考：[https://www.rt-thread.org/document/site/development-guide/sensor/sensor_driver/](https://www.rt-thread.org/document/site/development-guide/sensor/sensor_driver/)
 
 ### 1.1 ICM20948传感器简介
-LSM6DSM是STMicroelectronics推出的iNEMO 6DoF惯性测量单元（IMU），用于具有OIS / EIS和AR/VR系统的智能手机。超低功耗、高精度和稳定性，配备 3D 数字加速度计和 3D 数字陀螺仪，在高性能模式下以 0.65 mA 的速度工作，并始终启用低功耗功能，为消费者提供最佳的运动体验。
 
-详细参考：[https://www.st.com/zh/mems-and-sensors/lsm6dsm.html](https://www.st.com/zh/mems-and-sensors/lsm6dsm.html)
+ICM20948是由InvenSense（现为TDK的一部分）生产的一款高性能惯性测量单元（IMU），它集成了三轴陀螺仪、三轴加速度计和三轴磁力计，以及一个数字运动处理器（DMP）。这款传感器专为需要高精度姿态检测和运动跟踪的应用而设计，如智能手机、无人机、机器人技术、可穿戴设备等。
 
 ### 1.2 功能介绍
 
@@ -142,4 +140,4 @@ msh >sensor read 5
 ## 5、联系方式 & 感谢
 
 * 维护：juzhango
-* 主页：[https://gitee.com/juzhango](https://gitee.com/juzhango)
+* 主页：[https://github.com/juzhango](https://github.com/juzhango)
